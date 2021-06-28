@@ -10,6 +10,7 @@ router.get(
   '/',
   asyncHandler(async (req, res) => {
     const products = await Product.find({})
+    // throw new Error('Sum err')
     res.json(products)
   })
 )
