@@ -19,3 +19,11 @@ h2 {
 .rating span {
   margin: 0.1rem;
 }
+
+.form-label {
+  margin-bottom: 0.1rem;
+}
+
+.form-group {
+  margin-bottom: 0.5rem;
+}
