@@ -50,7 +50,7 @@ const LoginScreen = ({ location, history }) => {
             type='password'
             placeholder='Enter password'
             value={password}
-            onChange={(e) => setEmail(e.target.value)}></Form.Control>
+            onChange={(e) => setPassword(e.target.value)}></Form.Control>
         </Form.Group>
 
         <Button type='submit' variant='primary' className='mt-3'>
